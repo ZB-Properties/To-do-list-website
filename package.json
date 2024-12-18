@@ -6,7 +6,8 @@
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run duild",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "to-do-lidt build"
   },
   "author": "",
   "license": "ISC",

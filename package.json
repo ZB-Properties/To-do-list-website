@@ -1,10 +1,11 @@
 {
+  "homepage": "http://ZB-Properties.github.io/To-do-list-website",
   "name": "to-do-list-v1",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "predeploy": "npm run build",
+    "predeploy": "npm run deploy",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
